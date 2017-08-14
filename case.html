@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>快租客</title>
+	
+	<style>
+	   *{
+	   	    margin:0;
+	    	padding:0;
+	     	box-sizing: border-box;
+		}
+       body{
+	       background-color: white;
+	       background-image: url(images/bg.jpg);
+	       background-repeat: no-repeat;
+	       background-position: top center;
+	       text-align: center;
+		    
+        }
+	    #nav{
+	    	width: 100%;
+	    	height: 60px;
+	    	background: white;
+	    	text-align: center;
+	    	box-shadow: 0px 0px 4px 2px rgb(0,0,0);
+	    }
+	    #top-left{
+	    	float: left;
+	    }
+	    #top-right{
+	    	float: right;
+	    }
+	    .text-botton{
+	    	font-size: 20px
+	    }
+	    .free-botton{
+	    	width: 186px;
+	    	height: 39px;
+	    	background: #FDCA00;
+	    	display: inline-block;
+	    }
+	    #sousuo{
+            width: 732px;
+            height: 236px;
+            background-color: rgba(0,0,0,0.6);
+            border-radius: 5px;
+            margin:122px auto;
+            padding: 10px;
+            
+	    }
+	    .shuru{
+	    	width: 500px;
+	    	height: 50px;
+	    	font-size: 20px;
+	    	border-radius: 5px;
+	    	border: none;
+	    }
+	    .submit{
+	    	width: 50px;
+	    	height: 50px;
+	    	background-color: #FDCA00;
+	    	border-radius: 5px;
+	    	border: none;
+	    }
+	    #beizhu{
+	    	width: 100%;
+	    	height: 100px;
+	    	background-color: #FDCA00;
+	    	line-height: 100PX;
+	    	font-size: 30PX;
+
+	    }
+	    #main{
+	    	width: 100%;
+	    	background: #ffffff;
+	    	overflow: auto; 
+
+	    }
+	    .house{
+	    	width: 1000px;
+	    	margin:10px auto;
+	    }
+	    .house ul{
+	    	margin: 10px;
+	    	list-style-type: none;
+
+	    }
+
+	    .house ul li {
+	    	float: left;
+	    	padding: 11px;
+	    }
+	    .house ul li:hover{
+	    	box-shadow: 0px 0px 4px 2px rgba(0,0,0,0.3)
+	    }
+	    #dianping{
+	    	height: 440px;
+	    	background-image: url(images/bg-foot.jpg);
+	    }
+	    .user-book{
+	    	width: 370px;
+	    	height: 150px;
+	    	background-color: rgba(0,0,0,0.5);
+            border-radius: 5px;
+            text-align: left;
+            margin: auto;
+            color: #ffffff;
+
+	    }
+	    .font-30px{
+	    	font-size: 30px;
+	    	color: #ffffff;
+	    }
+	    .font-15px{
+	    	font-size: 15px;
+	    	color: #ffffff;
+	    }
+	    #user1{
+	    	width: 400px;
+	    	float: left;
+	    	position: relative;
+	    	left: 200px;
+	    	top: 70px;
+
+	    }
+	    #user2{
+	    	width: 400px;
+	    	float: right;
+	    	position: relative;
+	    	right: 200px;
+	    	top: 70px;
+	    }
+	    #foot{
+	    	width: 100%;
+	    	background-color: #f2f2f2;
+	    	height: 100px;
+	    	position: relative;
+	    	}
+	    .foot-z{
+	    	width: 300px;
+	    	height: 100px;
+	        position: absolute;
+	        top: 0px;
+	        bottom: 0px;
+	        right: 0px;
+	        left: 0px;
+	    	margin: auto;
+	    }
+	    .foot-font{
+	    	
+	    	font-size: 15px;
+	    	text-align: left;
+	    }
+	    
+	   
+	  
+
+
+
+	</style>
+</head>
+<body>
+    <div id="nav">
+    <span id="top-left">
+    <span ><img src="images/logo-s.gif"></span>
+    <span class="text-botton" ><a href="#">我要租房</a></span>
+    <span class="text-botton" ><a href="#">快租低价</a></span>
+    </span>
+    
+    <span id="top-right">
+    <span>
+    	<img src="images/user-logo.gif">
+    </span>
+    <span><a href="#">登陆</a></span>
+    <span><a href="#">注册</a></span>
+    <span class="free-botton"><a href="#">免费发布房间</a></span>
+    </span>
+   	
+    </div>
+ 
+	<div id="top">
+
+	</div>
+	<div id="sousuo">
+	    <div>
+		<img src="images/logo.png">
+		</div>
+		<form>
+		<input type="text" name="shuru" class="shuru"><input type="submit" class="submit" value=" ">
+		</form>
+		
+	</div>
+	<div id="beizhu"><b>注册快租客 立即领取200元房费</div>
+	<div id="main">
+	  <div class="house">
+	    <ul>
+	    	<li><img src="images/house/1.jpg"></li>
+	    	<li><img src="images/house/2.jpg"></li>
+	    	<li><img src="images/house/3.jpg"></li>
+	    	<li><img src="images/house/4.jpg"></li>
+	    	<li><img src="images/house/5.jpg"></li>
+	    	<li><img src="images/house/6.jpg"></li>
+	    	<li><img src="images/house/7.jpg"></li>
+	    	<li><img src="images/house/8.jpg"></li>
+	    	<li><img src="images/house/9.jpg"></li>
+	    </ul>
+	  </div>
+
+		<!--<table>
+			<tr>
+				<td><img src="images/house/1.jpg"></td>
+				<td><img src="images/house/2.jpg"></td>
+				<td><img src="images/house/3.jpg"></td>
+			</tr>
+			<tr>
+				<td><img src="images/house/4.jpg"></td>
+				<td><img src="images/house/5.jpg"></td>
+				<td><img src="images/house/6.jpg"></td>
+			</tr>
+			<tr>
+				<td><img src="images/house/7.jpg"></td>
+				<td><img src="images/house/8.jpg"></td>
+				<td><img src="images/house/9.jpg"></td>
+			</tr>
+		</table>-->
+	</div>
+	<div id="dianping">
+	<div id="user1">
+		<div class="font-30px">
+			房客点评
+		</div>
+		<div>
+			<img src="images/user1.png">
+		</div>
+		<div class="font-15px">小象</div>
+		<div class="user-book">这间房给我的第一感觉还是超出预期，房东是个帅气的小兄弟，预定的时候就聊的很愉快，这次太匆忙，下次来北京办事希望还有机会过来。</div>
+	</div>
+	<div id="user2">
+		<div class="font-30px">
+			房东点评
+		</div>
+		<div>
+			<img src="images/user2.png">
+		</div>
+		<div class="font-15px">泡泡</div>
+		<div class="user-book">房客很nice，把这里当成自己家一样的爱护，临走时放假收拾的很干净，就跟没住过一样，很好沟通也很热情的重庆兄弟，虽然只住了一天，但人海茫茫能够相见即是缘分，有机会还要来住我家呦。</div>
+	</div>
+	</div>
+
+	<div id="foot">
+	<div class="foot-z">
+	<div class="foot-font">
+	<br><br>
+	联系我们：福州市鼓楼杨桥西路 长春花园<br>电话：010-88888888
+	</div>
+	</div>
+	</div>
+	 
+	
+</body>
+</html>
